@@ -7,7 +7,6 @@ func (e *ErrorWrapper) Set(data ...interface{}) *ErrorWrapper {
 		e.Data = append(e.Data, row)
 	}
 	return e
-
 }
 
 func (e *ErrorWrapper) Get() string {
